@@ -90,8 +90,8 @@ s.source       = { :git => 'https://github.com/burtworld/QLRefreshTableView.git'
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
-  s.exclude_files = 'Classes/Exclude'
+  s.source_files  = "QLQRCodeUtils/Classes", "QLQRCodeUtils/Classes/**/*.{h,m}"
+#s.exclude_files = 'Classes/Exclude'
 
   # s.public_header_files = "Classes/**/*.h"
 
